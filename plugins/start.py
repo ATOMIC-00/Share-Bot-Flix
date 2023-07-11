@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
             ]
         )
         c="https://te.legra.ph/file/cade3e8b901aedd52190e.jpg"
-        await client.reply_photo(
+        await message.reply_photo(
             text = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
