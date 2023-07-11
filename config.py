@@ -64,7 +64,7 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(5052438254)
 ADMINS.append(1636310615)
 
-LOG_FILE_NAME = "log.txt"
+LOG_FILE_NAME = "filesharingbot.txt"
 
 logging.basicConfig(
     level=logging.INFO,
