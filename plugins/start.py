@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
-        c="https://te.legra.ph/file/cade3e8b901aedd52190e.jpg"
+        c="https://te.legra.ph/file/d9f4aa503570c2d1bc740.jpg"
         await message.reply_photo(
             caption = START_MSG.format(
                 first = message.from_user.first_name,
